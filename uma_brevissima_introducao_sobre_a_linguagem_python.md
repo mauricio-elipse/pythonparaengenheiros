@@ -1,0 +1,9 @@
+# Uma brevíssima introdução sobre a linguagem Python
+
+A linguagem de programação Python é interpretada, ou seja, não é necessário compilar o código escrito por um humano para gerar outro em um formato que o computador “entende”. Na verdade, é criado um arquivo intermediário que visa agilizar o processo de execução dos Scripts, que só é atualizado quando o Script que o originou foi alterado.
+
+Esta característica de ser uma linguagem interpretada auxilia muito nos processos de prototipação de softwares, uma vez que agiliza o processo de escrita de código e análise dos resultados – típica metodologia de programação feita por Engenheiros! Por esta característica também pode assumir o caráter de “**poderosa ferramenta de análise**”, incorporando-se ao arsenal que um Engenheiro tem à sua disposição para resolver suas demandas cotidianas!
+
+Em resumo, através da linguagem Python é possível resolver problemas típicos de cálculo numérico (interpolações, otimizações, integrações, derivações, álgebra linear, etc.), bem como estatísticos, visualizando os resultados em gráficos dos mais variados tipos (tendências, dispersão, pizza, barra, box-plot, bode, etc. – [matplotlib gallery]( http://matplotlib.org/gallery.html "Site da Matplotlib")) e compartilhar tudo via web e/ou documentos em PDF, por exemplo, isso tudo apenas para começar...
+
+Muito mais detalhes sobre a linguagem Python pode ser encontrado em: [Python Software Foundation]( https://www.python.org/ "Site do Python") e em inúmeros materiais disponibilizados na *WWW*, mas acredito que para um Engenheiro, o que foi dito já é mais que suficiente para motivar a continuação da leitura deste material!
