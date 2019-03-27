@@ -21,7 +21,7 @@ OK – uma vez escolhida a versão basta baixar o Python e instalar?
 
 Não, ou melhor, sim, caso queiras ter um bom trabalho instalando mais um monte de “coisas úteis” que, em geral, um Engenheiro precisa. 
 
-Nós recomendamos instalar o [Anaconda]( https://www.anaconda.com) - *sim, em 2016 Anaconda era apenas a distribuição da continuum, de 2016 à 2018 o nome anaconda ficou tão forte que passou a ser a nova marca registrada!*
+Nós recomendamos instalar o [Anaconda](https://www.anaconda.com/) - *sim, em 2016 Anaconda era apenas a distribuição da continuum, de 2016 à 2018 o nome anaconda ficou tão forte que passou a ser a nova marca registrada!*
 
 Sei que alguns novatos vão achar engraçado trocar uma “serpente” por outra, mas este não é o caso. O Anaconda que nos referimos nada mais é do que uma plataforma para computação científica que inclui o Python, ou seja, além de instalar o Python, já instala e configura um monte de outros recursos e módulos que aceleram o processo de “montagem” de um ambiente científico e de análises.
 
@@ -29,7 +29,7 @@ Então baixe a última versão do Anaconda (que utiliza o Python 3.7) e instale!
 
 Uma vez instalado o Python, é possível abrir algum dos seus IDE’s (pesquisar na *WWW*, o IDLE em geral vem junto com algumas instalações) e executar diretamente alguns comandos nele.
 
-Quem não instalou ainda e mesmo assim quer brincar agora, é possível executar comandos diretamente no ambiente disponibilizado no site [Python Software Foundation]( https://www.python.org/). Para tanto, basta selecionar a opção: *Launch Interactive Shell*
+Quem não instalou ainda e mesmo assim quer brincar agora, é possível executar comandos diretamente no ambiente disponibilizado no site [Python Software Foundation](https://www.python.org/). Para tanto, basta selecionar a opção: *Launch Interactive Shell*
 
 ![](pyInteractShell.png)
 
@@ -71,10 +71,10 @@ Bem, como dissemos anteriormente, o Anaconda facilita muito o processo de instal
 Dito tudo isso, ainda resta dizer: tem sim um pouco mais... aliás, quando se trata de Python, sempre tem um pouco mais - um pouco mais do mesmo e um pouco mais de coisas diferentes e até mesmo inusitadas! Então vamos a mais alguns aplicativos que sugiro fortemente pesquisarem um pouco mais, claro que esta é a dica para os ousados (que são exatamente os que chegaram até este ponto da leitura)!
 
 
-### [Atom]( https://atom.io/)
+### [Atom](https://atom.io/)
 É um editor de texto que roda em **Linux, Mac e Windows** - além de um visual moderno e inúmeras ferramentas interessantes que facilitam e aceleram o processo de desenvolvimento de scripts em Python, suporta inúmeros plugins direcionados especificamente para esta linguagem.
 
-### [Sublime]( https://www.sublimetext.com/)
+### [Sublime](https://www.sublimetext.com/)
 Equivalente ao Atom, porém muito mais rápido para carregar, é outra alternativa de editor de texto multiplataforma bastante difundido.
 
 ### [VIM]( https://www.vim.org/)
