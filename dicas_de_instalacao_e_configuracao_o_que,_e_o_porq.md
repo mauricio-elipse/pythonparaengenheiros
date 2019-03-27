@@ -11,21 +11,25 @@ Então, qual escolher?!
 
 Sem dúvida alguma a última versão traz inúmeros benefícios e melhorias, vale a pena entrar no site mencionado anteriormente para conferir, porém, existem muitos módulos Python que foram desenvolvidos pela comunidade e que não foram ainda migrados para a última versão. Este número é tão expressivo que a dúvida na escolha da versão é uma questão recorrente que ainda persiste!
 
-Hoje, para quem quer brincar com análises de dados ou computação científica, “deve” optar pela última atualização da versão 2.7. Esta é (hoje-2016) a versão que a comunidade científica mais vem adotando para estudos, desenvolvimentos, etc., justamente pelos motivos já mencionados.
+*Hoje, para quem quer brincar com análises de dados ou computação científica, “deve” optar pela última atualização da versão 2.7. Esta é (hoje-2016) a versão que a comunidade científica mais vem adotando para estudos, desenvolvimentos, etc., justamente pelos motivos já mencionados.*
+
+Leste o parágrafo acima? Desculpa, mas achei importante deixá-lo como registro - sim, isso foi dito em 2016, quando iniciei escrever este livro, mas como me tornei papai, desde então o livro está praticamente parado, até agora (2019) quando pretendo ir retomando aos poucos. Agora, sobre esta questão da versão, é preciso enfatizar que já está definida a data para o fim ao suporte da versão 2.7 do Python (janeiro/2020), apesar disso, ainda tem alguma coisa que só existe para esta versão, então a escolha vai depeder muito do que pretendes fazer.
+
+Minha recomendação (em 2019) é instalar o **Python 3.7** ou superior, no caso de precisar alguma coisa da versão 2.7, ainda poderás utilizar os recursos de *virtualenv* do Python!
 
 OK – uma vez escolhida a versão basta baixar o Python e instalar?
 
 Não, ou melhor, sim, caso queiras ter um bom trabalho instalando mais um monte de “coisas úteis” que, em geral, um Engenheiro precisa. 
 
-Nós recomendamos instalar o [Anaconda]( https://www.continuum.io)!
+Nós recomendamos instalar o [Anaconda]( https://www.anaconda.com ) - *sim, em 2016 Anaconda era apenas a distribuição da continuum, de 2016 à 2018 o nome anaconda ficou tão forte que passou a ser a nova marca registrada!*
 
-Sei que alguns vão achar engraçado trocar uma “serpente” por outra, mas este não é o caso. O Anaconda que nos referimos nada mais é do que uma plataforma para computação científica que inclui o Python, ou seja, além de instalar o Python, já instala e configura um monte de outros recursos e módulos que aceleram o processo de “montagem” de um ambiente científico e de análises.
+Sei que alguns novatos vão achar engraçado trocar uma “serpente” por outra, mas este não é o caso. O Anaconda que nos referimos nada mais é do que uma plataforma para computação científica que inclui o Python, ou seja, além de instalar o Python, já instala e configura um monte de outros recursos e módulos que aceleram o processo de “montagem” de um ambiente científico e de análises.
 
-Então baixe a última versão do Anaconda (que utiliza o Python 2.7) e instale! Ao final, muitos dos módulos e recursos que abordaremos neste material já estarão disponíveis e prontos para utilização!
+Então baixe a última versão do Anaconda (que utiliza o Python 3.7) e instale! Ao final, muitos dos módulos e recursos que abordaremos neste material já estarão disponíveis e prontos para utilização!
 
 Uma vez instalado o Python, é possível abrir algum dos seus IDE’s (pesquisar na *WWW*, o IDLE em geral vem junto com algumas instalações) e executar diretamente alguns comandos nele.
 
-Quem não instalou ainda e mesmo assim quer brincar, é possível executar comandos diretamente no ambiente disponibilizado no site [Python Software Foundation]( https://www.python.org/). Para tanto, basta selecionar a opção: *Launch Interactive Shell*
+Quem não instalou ainda e mesmo assim quer brincar agora, é possível executar comandos diretamente no ambiente disponibilizado no site [Python Software Foundation]( https://www.python.org/). Para tanto, basta selecionar a opção: *Launch Interactive Shell*
 
 ![](pyInteractShell.png)
 
@@ -67,8 +71,14 @@ Bem, como dissemos anteriormente, o Anaconda facilita muito o processo de instal
 Dito tudo isso, ainda resta dizer: tem sim um pouco mais... aliás, quando se trata de Python, sempre tem um pouco mais - um pouco mais do mesmo e um pouco mais de coisas diferentes e até mesmo inusitadas! Então vamos a mais alguns aplicativos que sugiro fortemente pesquisarem um pouco mais, claro que esta é a dica para os ousados (que são exatamente os que chegaram até este ponto da leitura)!
 
 
-### [Atom](https://atom.io/)
+### [Atom]( https://atom.io/)
 É um editor de texto que roda em **Linux, Mac e Windows** - além de um visual moderno e inúmeras ferramentas interessantes que facilitam e aceleram o processo de desenvolvimento de scripts em Python, suporta inúmeros plugins direcionados especificamente para esta linguagem.
+
+### [Sublime]( https://www.sublimetext.com/)
+Equivalente ao Atom, porém muito mais rápido para carregar, é outra alternativa de editor de texto multiplataforma bastante difundido.
+
+### [VIM]( https://www.vim.org/)
+Este é para os ousados - realmente não poderás ser considerado um "bom programador", o engenheiro que não não **preferir usar** o VIM para escrever seus códigos. Brincadeiras à parte, realmente este é o melhor de todos os editores de texto, uma curva de aprendizagem um pouco lenta, mas com ganhos de produtividade, alegria e prazer indescritíveis - vale a pena pesquisar um pouco mais e "dar uma chance" ao VIM - hoje eu só uso ele, para tudo, inclusive para escrever este livro (com direito à corretor ortográfico e tudo mais).
 
 ### [Eclipse](https://eclipse.org/)
 Também pode ser utilizado apenas como um editor de textos, porém é muito mais que isso, é um ambiente projetado para o desenvolvimento de software, suportando inúmeras linguagens - dentre elas: Python, é claro, através do plugin **[PyDev](http://www.pydev.org/)**.
@@ -78,7 +88,7 @@ Roda em **Linux, Mac e Windows**, disponibilizando um excelente ambiente para de
 Dentre as funcionalidades de depuração, vale destacar a possibilidade de depurar um código Python que está sendo avaliado por um outro programa (processo) - caso típico de *debugging attached to process* - comum em aplicativos que usam o Python como linguagem de script (ex.: [Libre Office](https://www.libreoffice.org/), [FreeCad](http://www.freecadweb.org/), etc.) e/ou para desenvolvimento de plugins (ex.: [Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.org/en/), [Blender](https://www.blender.org/), [QGis](http://www.qgis.org/), etc.)!
 
 ### [PyCharm](https://www.jetbrains.com/pycharm/)
-Similarmente ao Eclipse, o PyCharme também é um IDE, porém feito para o Python, disponibilizando ferramentas equivalentes ao Eclipse em termos de depuração de código.
+Similarmente ao Eclipse, o PyCharme também é um IDE, porém feito para o Python, disponibilizando ferramentas equivalentes ao Eclipse em termos de depuração de código. Para os que gostam do VIM, tem um plugin que emula seus comandos na área do editor do PyCharm.
 
 Roda em **Linux, Mac e Windows**, para usar *free*, deve-se optar pela versão *Community*.
 
@@ -90,10 +100,10 @@ Disponibiliza funcionalides de depuração análogas ao Eclipse e ao PyCharm, me
 ### [Elipse Plant Manager - EPM](http://www.elipse.com.br/)
 É um sistema de gerenciamento de dados que segue o padrão [OPC UA](https://opcfoundation.org/). Tipicamente caracterizado como um PIMS (Plant/Process Information Management System), sendo amplamente difundido na indústria para coletar dados de processo, armazená-los de maneira eficiente e disponibilizá-los para visualizações e análises.
 
-Atualmente este sistema roda no **Windows** e sua versão de demonstração tem apenas a restrição de operar com 20 variávies, todas as demais funcionalidades e ferramentas estão disponíveis, inclusive duas que temos interesse especial: o **Dataset Analysis do EPM Studio integrado ao Python (console e plugins)** e o **EPM SDK em linguagem Python**.
+Atualmente este sistema roda no **Windows** e sua versão de demonstração tem apenas a restrição de operar com 20 variávies, todas as demais funcionalidades e ferramentas estão disponíveis, inclusive três que temos interesse especial: o **Dataset Analysis do EPM Studio integrado ao Python (console e plugins)** , o **EPM SDK em linguagem Python 2.7** e a **epmwebapi** uma API para o Python 3.6 ou superior - alguns exemplos de códigos com esta linguagem podem ser vistos diretamente no [Github da Elipse Software]( https://github.com/elipsesoftware).
 
-O primeiro é um ambiente para a análise de dados de processo (fundamentalmente séries temporais) integrado ao Python, enquanto que o segundo é um módulo Python que possibilita ler e escrever valores em variáveis de processo existentes no sistema EPM (utilizando OPC UA).
+O primeiro é um ambiente para a análise de dados de processo (fundamentalmente séries temporais) integrado ao Python, enquanto que os outros dois são módulos Python que possibilitam ler e escrever valores em variáveis de processo existentes no sistema EPM (utilizando o padrão OPC UA).
 
 Pela simples possibilidade de utilizar a versão de demonstração *free*, esta é uma excelente escolha para armazenamento e análise de dados em pequenas aplicações - como em laboratórios ou, por exemplo para automação residencial, coletando dados de um Arduino e/ou Raspberry Pi para posteriores análises (perfis de temperatura, consumo de energia, enfim, o que a criatividade permitir).
 
-Vale a pena dar uma passada no [meu canal no Youtube](https://www.youtube.com/channel/UCeuTsm6aUpjiqDzeAefJ89w) para conferir as possibilidades que esta ferramenta oferece.
+Vale a pena dar uma passada no [meu canal no Youtube](https://www.youtube.com/channel/UCeuTsm6aUpjiqDzeAefJ89w) para conferir algumas das possibilidades que esta ferramenta oferece.
