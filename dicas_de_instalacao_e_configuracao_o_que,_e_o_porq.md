@@ -21,7 +21,7 @@ OK – uma vez escolhida a versão basta baixar o Python e instalar?
 
 Não, ou melhor, sim, caso queiras ter um bom trabalho instalando mais um monte de “coisas úteis” que, em geral, um Engenheiro precisa. 
 
-Nós recomendamos instalar o [Anaconda]( https://www.anaconda.com ) - *sim, em 2016 Anaconda era apenas a distribuição da continuum, de 2016 à 2018 o nome anaconda ficou tão forte que passou a ser a nova marca registrada!*
+Nós recomendamos instalar o [Anaconda]( https://www.anaconda.com) - *sim, em 2016 Anaconda era apenas a distribuição da continuum, de 2016 à 2018 o nome anaconda ficou tão forte que passou a ser a nova marca registrada!*
 
 Sei que alguns novatos vão achar engraçado trocar uma “serpente” por outra, mas este não é o caso. O Anaconda que nos referimos nada mais é do que uma plataforma para computação científica que inclui o Python, ou seja, além de instalar o Python, já instala e configura um monte de outros recursos e módulos que aceleram o processo de “montagem” de um ambiente científico e de análises.
 
